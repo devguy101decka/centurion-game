@@ -28,3 +28,21 @@ class GameEngine:
         self.running_total += card.value()
         self.current_player = 1 - player_index
         return self.running_total
+
+    def check_deal_end(self) -> bool:
+        """
+        Returns True if the deal is over:
+          - running_total == 100
+          - running_total > 100 and a multiple of 10
+          - both players have no cards left
+        Otherwise False.
+        """
+        if self.running_total == 100:
+            return True
+        if self.running_total > 100 and self.running_total % 10 == 0:
+            return True
+        # both hands empty?
+        if all(len(hand) == 0 for hand in self.players):
+            return True
+        return False
+
