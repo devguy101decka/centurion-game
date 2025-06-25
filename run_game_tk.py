@@ -1,3 +1,4 @@
+
 # run_game_tk.py
 
 import os
@@ -100,16 +101,11 @@ class GameUI(tk.Tk):
 
             # Award counters to that player
             if self.engine.award_counters(scoring_player, pts):
-                messagebox.showinfo(
-                    "Match Over",
-                    f"Player {scoring_player+1} wins the match!"
-                )
                 over = tk.Toplevel(self)
                 over.title("Game Over")
                 tk.Label(
                     over,
                     text="🎮 Game Over 🎉",
-                    font=("Helvetica", 24),
                     fg="blue",
                     padx=20, pady=20
                 ).pack()
@@ -126,4 +122,5 @@ class GameUI(tk.Tk):
 
 if __name__ == "__main__":
     app = GameUI()
-    app.mainloop()
+    app.mainloop()                    font=("Helvetica", 24),
+                messagebox.showinfo(
