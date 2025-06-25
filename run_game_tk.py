@@ -122,5 +122,4 @@ class GameUI(tk.Tk):
 
 if __name__ == "__main__":
     app = GameUI()
-    app.mainloop()                    font=("Helvetica", 24),
-                messagebox.showinfo(
+    app.mainloop()
