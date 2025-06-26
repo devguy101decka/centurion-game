@@ -76,7 +76,7 @@ python run_game.py
 
 4. Scoring
    – Base points = cards played
-   – Penalty = ⌊(total – 100)/10⌋ (0 if total ≤ 100)
+   – Penalty = [(total – 100)/10] (0 if total ≤ 100)
    – Final points = base – penalty
    – Deal winner takes that many counters
 
