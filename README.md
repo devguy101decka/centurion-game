@@ -11,13 +11,13 @@ A two-player “Centurion” arithmetic card game implemented in Python.
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repo (FOLLOW THIS STEP ONE TIME ONLY)
 
 ```
 git clone https://github.com/devguy101decka/centurion-game.git
 cd centurion-game
 ```
-1.1 Open The game 
+1.1 After closing - open The game (START FROM THIS STEP AFTER CLONING FOR THE FIRST TIME)
 ```
 cd ~/centurion-game
 ```
