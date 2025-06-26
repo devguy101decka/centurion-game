@@ -1,5 +1,5 @@
 import pytest
-from centurion.card import Card, Suit
+from centurion.card import Card, Sui
 
 def test_joker_value():
     joker = Card(0, None)
