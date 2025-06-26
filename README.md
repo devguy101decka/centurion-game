@@ -21,13 +21,10 @@ cd centurion-game
 2. Create & activate a virtual environment
 
 ```
-python -m venv .venv
-# Windows (Git Bash):
-source .venv/Scripts/activate
-# Windows (PowerShell):
-.\.venv\Scripts\Activate.ps1
-# macOS/Linux:
-source .venv/bin/activate
+python -m venv venv
+
+# Activate in PowerShell
+.\venv\Scripts\Activate.ps1
 ```
 
 3. Install dependencies
