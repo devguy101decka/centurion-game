@@ -17,6 +17,7 @@ A two-player “Centurion” arithmetic card game implemented in Python.
 git clone https://github.com/devguy101decka/centurion-game.git
 cd centurion-game
 ```
+cd ~/centurion-game
 
 2. Create & activate a virtual environment
 
