@@ -48,7 +48,7 @@ pytest -q
 
 ### 🎮 Playing the Game
 
-Command-Line Interface (CLI)
+GUI Interface
 
 ```
 python run_game_tk.py
