@@ -17,8 +17,10 @@ A two-player “Centurion” arithmetic card game implemented in Python.
 git clone https://github.com/devguy101decka/centurion-game.git
 cd centurion-game
 ```
+1.1 Open The game 
+```
 cd ~/centurion-game
-
+```
 2. Create & activate a virtual environment
 
 In Git Bash you can use the py launcher:
@@ -49,7 +51,7 @@ pytest -q
 Command-Line Interface (CLI)
 
 ```
-python run_game.py
+python run_game_tk.py
 ```
 
 • Deals seven cards each; players take turns entering a card index to play.
