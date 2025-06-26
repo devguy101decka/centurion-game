@@ -57,33 +57,6 @@ python run_game.py
 – Green prompts
 – Yellow victory messages
 
-Graphical UI (Tkinter)
-
-```
-python run_game_tk.py
-```
-
-• Click on a card to play it.
-• Pop-ups show deal scoring and match results.
-• Uses full rank & suit names, plus a “Game Over” window.
-
-### 🗂️ Project Structure
-
-```
-.
-├── src/centurion/            # Game engine, models & scoring
-│   ├── card.py
-│   ├── deck.py
-│   ├── engine.py
-│   ├── score.py
-│   ├── counterpool.py
-│   └── __init__.py
-├── run_game.py               # CLI driver
-├── run_game_tk.py            # Tkinter GUI driver
-├── tests/                    # Pytest test suite
-├── requirements.txt          # pytest, colorama
-└── README.md
-```
 
 ### 📚 How It Works
 
